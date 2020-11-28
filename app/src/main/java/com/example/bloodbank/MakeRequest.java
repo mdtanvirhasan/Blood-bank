@@ -7,26 +7,27 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class HomePage extends AppCompatActivity {
+public class MakeRequest extends AppCompatActivity {
 
-    private Button make_req;
+    private Button submit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_page);
+        setContentView(R.layout.activity_make_request);
 
-        make_req=findViewById(R.id.makeReq);
-        make_req.setOnClickListener(new View.OnClickListener() {
+        submit=findViewById(R.id.submit);
+
+        submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                goToMakeRequest();
+                goToHomePage();
             }
         });
-
     }
-    public void goToMakeRequest(){
-        Intent intent=new Intent(this,MakeRequest.class);
+    public void goToHomePage(){
+
+        Intent intent=new Intent(this,HomePage.class);
         startActivity(intent);
     }
 }
