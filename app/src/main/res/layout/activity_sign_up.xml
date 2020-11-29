@@ -118,7 +118,7 @@
         android:layout_marginRight="36dp" />
 
     <TextView
-        android:id="@+id/addresstxt"
+        android:id="@+id/passwordtxt"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
@@ -127,11 +127,11 @@
         android:layout_marginStart="48dp"
         android:layout_marginLeft="48dp"
         android:layout_marginTop="423dp"
-        android:text="Address:"
+        android:text="Password:"
         android:textSize="30dp" />
 
     <EditText
-        android:id="@+id/addressID"
+        android:id="@+id/passID"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
