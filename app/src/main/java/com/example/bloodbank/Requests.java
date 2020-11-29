@@ -4,16 +4,16 @@ public class Requests {
     private String Name;
     private String Address;
     private String Blood_Group;
-    private String Date;
+    private String Phone;
 
     public Requests(){
 
     }
-    public Requests(String name, String address, String blood_Group, String date) {
+    public Requests(String name, String address, String blood_Group, String phone) {
         Name = name;
         Address = address;
         Blood_Group = blood_Group;
-        Date = date;
+        Phone = phone;
     }
 
     public String getName() {
@@ -41,10 +41,10 @@ public class Requests {
     }
 
     public String getDate() {
-        return Date;
+        return Phone;
     }
 
-    public void setDate(String date) {
-        Date = date;
+    public void setDate(String phone) {
+        Phone = phone;
     }
 }

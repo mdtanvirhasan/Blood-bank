@@ -41,7 +41,7 @@ public class Adapter extends ArrayAdapter<Requests> {
         t1.setText("Name:"+requests.getName());
         t2.setText("Address:"+requests.getAddress());
         t3.setText("Blood Group:"+requests.getBlood_Group());
-        t4.setText("Date:"+requests.getDate());
+        t4.setText("Phone:"+requests.getDate());
 
 
         return view;
