@@ -1,0 +1,15 @@
+com/example/bloodbank/SignUpActivity.java
+ com.example.bloodbank.SignUpActivity
+com/example/bloodbank/SignInActivity.java
+ com.example.bloodbank.SignInActivity
+com/example/bloodbank/SplashScreen.java
+ com.example.bloodbank.SplashScreen
+ com.example.bloodbank.SplashScreen$1
+com/example/bloodbank/MainActivity.java
+ com.example.bloodbank.MainActivity
+com/example/bloodbank/BuildConfig.java
+ com.example.bloodbank.BuildConfig
+com/example/bloodbank/VerifyPhoneActivity.java
+ com.example.bloodbank.VerifyPhoneActivity
+ com.example.bloodbank.VerifyPhoneActivity$1
+ com.example.bloodbank.VerifyPhoneActivity$2
